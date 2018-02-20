@@ -1,0 +1,17 @@
+blockquote {
+  padding-left: 15px;
+  margin: 0 auto;
+  width: auto;
+  display: table;
+}
+
+button#btn {
+  margin: 25px 0;
+  width: 50%;
+}
+
+@media (max-width: 500px) {
+  button#btn {
+    width: 100%;
+  }
+}

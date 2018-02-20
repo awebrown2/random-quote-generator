@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Random Quote Generator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row jumbotron">
+        <div class="col-sm-12 text-center">
+          <h1>Random Quote Generator</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <h2>Press Button For Random Quote</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <button type="button" id="btn" class="btn btn-primary btn-lg">New Quote</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <blockquote>
+            <p id="quote"></p>
+            <span>&mdash;
+            <cite id="cite"></cite>
+            </span>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="data/quotes.json"></script>
+    <script type="text/javascript" src="js/quotes.js"></script>
+  </body>
+</html>
